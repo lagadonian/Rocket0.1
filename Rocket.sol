@@ -1,5 +1,4 @@
 pragma solidity ^0.5.0;
-//mainnet address 0x0d3efa2767fdba59ff3ae80878879f501d8b335e
 
 
 
@@ -12,8 +11,8 @@ contract Rocket {
 		uint256 shares;
 	}
 	
-	uint enrollment_end = block.timestamp+100;
-	uint expiration = block.timestamp+200;
+	uint enrollment_end = block.timestamp+86400;
+	uint expiration = block.timestamp+604800;
 
 	mapping(address => Account) public accounts;
 	
